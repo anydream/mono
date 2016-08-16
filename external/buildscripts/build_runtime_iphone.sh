@@ -3,7 +3,7 @@ SDK_VERSION=9.3
 MAC_SDK_VERSION=10.6
 ASPEN_ROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
 SIMULATOR_ASPEN_ROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer
-XCOMP_ASPEN_ROOT=$PWD/../mono-build-deps/MacBuildEnvironment/builds/MacOSX${MAC_SDK_VERSION}.sdk
+XCOMP_ASPEN_ROOT=$PWD/../../mono-build-deps/build/MacBuildEnvironment/builds/MacOSX${MAC_SDK_VERSION}.sdk
 BUILDSCRIPTSDIR=external/buildscripts
 
 # allow to build with older SDKs temporarily
